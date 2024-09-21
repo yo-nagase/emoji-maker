@@ -2,7 +2,7 @@
 ## Public Server URL
 
 please access to this URL to use the app.  
-https://emoji-maker-kxohd9tqa-tsysnagases-projects.vercel.app/
+https://emoji-maker-one.vercel.app/
 
 
 ## Getting Started locally

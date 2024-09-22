@@ -5,6 +5,13 @@ please access to this URL to use the app.
 https://emoji-maker-one.vercel.app/
 
 
+## Services we use
+- Authentication: https://clerk.com/
+- Database: https://supabase.com/
+- Storage: https://vercel.com/
+
+
+
 ## Getting Started locally
 
 First, run the development server:

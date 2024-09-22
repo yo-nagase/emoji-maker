@@ -1,13 +1,9 @@
 'use client'
 
+import { Emoji } from '@/app/types/Emojis'
 import { Card } from './ui/card'
 import { Download, Heart } from 'lucide-react'
 
-interface Emoji {
-  id: string
-  url: string
-  likes: number
-}
 
 interface EmojiGridProps {
   emojis: Emoji[]
@@ -52,6 +48,7 @@ export default function EmojiGrid({ emojis, setEmojis }: EmojiGridProps) {
             </button>
           </div>
           <div className="mt-2 text-center">{emoji.likes} likes</div>
+          <div className="mt-2 text-center text-sm text-gray-500">{emoji.prompt}</div>
         </Card>
       ))}
     </div>

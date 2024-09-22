@@ -23,9 +23,17 @@ export async function POST(request: Request) {
       "bytedance/sdxl-lightning-4step:5599ed30703defd1d160a25a63321b4dec97101d98b4674bcc56e41f62f35637",
       {
         input: {
-          prompt,
-          apply_watermark: false,
-          nsfw_checker: true, // NSFWチェッカーを有効化
+          // prompt,
+          // apply_watermark: false,
+          // nsfw_checker: true, // NSFWチェッカーを有効化
+          width: 1024,
+          height: 1024,
+          prompt: prompt,
+          scheduler: "K_EULER",
+          num_outputs: 1,
+          guidance_scale: 0,
+          negative_prompt: "worst quality, low quality",
+          num_inference_steps: 4
         }
       }
     )

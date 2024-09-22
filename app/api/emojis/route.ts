@@ -26,8 +26,9 @@ export async function GET() {
   try {
     const { data, error } = await supabase
       .from('emojis')
-      .select('*')
+      .select('id, url, likes, prompt, user_id, user_name') // Make sure 'prompt' is included
       .order('created_at', { ascending: false })
+      .limit(50)
 
     if (error) throw error
 

@@ -1,3 +1,4 @@
+# Emoji Generator
 
 ## Public Server URL
 
@@ -33,3 +34,11 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+
+## Features
+
+- Generate custom emojis using AI
+- View a grid of generated emojis
+- Like your favorite emojis
+- See the prompt used to generate each emoji
+// ... other existing features ...

@@ -3,12 +3,10 @@
 import { useState, useEffect } from 'react'
 import EmojiGenerator from '@/components/emoji-generator'
 import EmojiGrid from '@/components/emoji-grid'
+import { Emoji } from './types/Emojis'
 
-interface Emoji {
-  id: string
-  url: string
-  likes: number
-}
+
+
 
 export default function Home() {
   const [emojis, setEmojis] = useState<Emoji[]>([])

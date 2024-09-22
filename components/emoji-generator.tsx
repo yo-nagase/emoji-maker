@@ -3,9 +3,10 @@
 import { useState } from 'react'
 import { Button } from './ui/button'
 import { Input } from './ui/input'
+import { Emoji } from '@/app/types/Emojis'
 
 interface EmojiGeneratorProps {
-  onNewEmoji: (newEmoji: { id: string; url: string; likes: number }) => void
+  onNewEmoji: (newEmoji: Emoji) => void
 }
 
 export default function EmojiGenerator({ onNewEmoji }: EmojiGeneratorProps) {

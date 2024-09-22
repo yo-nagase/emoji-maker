@@ -6,6 +6,7 @@ https://emoji-maker-one.vercel.app/
 
 
 ## Services we use
+- Image Generation: https://replicate.com/
 - Authentication: https://clerk.com/
 - Database: https://supabase.com/
 - Storage: https://vercel.com/

@@ -20,7 +20,7 @@ export async function POST(request: Request) {
     console.log( userName)
 
     const output = await replicate.run(
-      "fofr/sdxl-emoji:dee76b5afde21b0f01ed7925f0665b7e879c50ee718c5f78a9d38e04d523cc5e",
+      "bytedance/sdxl-lightning-4step:5599ed30703defd1d160a25a63321b4dec97101d98b4674bcc56e41f62f35637",
       {
         input: {
           prompt,
